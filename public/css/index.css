@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('../tipografia/SaintCarellClean_PERSONAL_USE_ONLY.otf');
+}
+
+*
+{
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+body
+{
+    background-color: rgb(115, 174, 216);
+}
+
+/* Encabezado */
+
+#titulo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo
+{
+    width: 15%;
+    height: auto;
+}
+h1
+{
+    font-family: 'titulo';
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+/* Menú */
+
+.nav * a
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.nav * a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+#altaCliente, #altaSiniestro, #documento
+{
+    margin: auto;
+    padding: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+}
+legend
+{
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+}
+label
+{
+    font-size: 18px;
+    font-style: italic;
+}
+.crear
+{
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.badge
+{
+   margin: auto;
+}
